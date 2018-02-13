@@ -58,3 +58,21 @@
 	z-index: 9999;
 	background: url(images/Preloader_3.gif) center no-repeat #fff;
 }
+@media (min-width: 768px) {
+     .navbar {
+         height: 80px; // your custom height
+         display: flex;
+         align-items: center;
+     }
+}
+@media (max-width: 767px) {
+    .navbar-header {
+        height: 80px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .navbar-toggle {
+        margin-top: 5px;
+    }
+}          
+
