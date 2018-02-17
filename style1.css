@@ -60,14 +60,14 @@
 }
 @media (min-width: 768px) {
      .navbar {
-         height: 80px; // your custom height
+         height: 70px; // your custom height
          display: flex;
          align-items: center;
      }
 }
 @media (max-width: 767px) {
     .navbar-header {
-        height: 80px;
+        height: 70px;
         padding-top: 15px;
         padding-bottom: 15px;
     }
@@ -89,5 +89,20 @@ header {
   }
 }   
 section {
-  padding: 80px 0;
+  padding: 30px 0;
+}
+ .aboutmeimage{
+    margin-top:100px;
+    margin-left: 30px;
+    padding-right: 10px;
+    max-height:280px;
+    max-width: 280px;
+}
+@media (max-width: 767px){
+    .aboutmeimage{
+    margin-top:50px;
+    margin-left: 30px;
+    padding-right: 60px;
+    max-height:280px;
+    max-width: 280px;
 }
