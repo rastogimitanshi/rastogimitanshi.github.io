@@ -58,11 +58,13 @@
 	z-index: 9999;
 	background: url(images/Preloader_3.gif) center no-repeat #fff;
 }
-@media (min-width: 768px) {
+@media (min-width: 1000px) {
      .navbar {
-         height: 60px; // your custom height
+         height: 70px; // your custom height
          display: flex;
          align-items: center;
+         padding-top: 10px;
+         padding-bottom: 10px;
      }
 }
 @media (max-width: 767px) {
