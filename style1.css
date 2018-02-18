@@ -106,3 +106,16 @@ section {
     max-height:280px;
     max-width: 280px;
 }
+@media(min-width: 768px){}
+.educationimage{
+    max-height:150px;
+    max-width: 150px;
+    padding:30px;
+}
+}
+@media(max-width: 767px){}
+.educationimage{
+    max-height:200px;
+    max-width: 200px;
+}
+}
