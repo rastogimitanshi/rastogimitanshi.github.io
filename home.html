@@ -13,8 +13,15 @@
 
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+        <script>
+    // Wait for window load
+    $(window).load(function() {
+        // Animate loader off screen
+        $(".se-pre-con").fadeOut("slow");;
+    });
+    </script>
     </head>
-    <body id="page-top" data-spy="scroll" data-target=".navbar" data-offset="50">
+    <body id="page-top">
 
 <nav class="navbar navbar-inverse navbar-fixed-top navbar-dark bg-dark">
     <!-- Navbar Container -->
@@ -28,7 +35,7 @@
             </button>
 
             <!-- Navbar Brand -->
-            <a class="navbar-brand" href="# ">
+            <a class="navbar-brand" href="home.html ">
                 Mitanshi Rastogi
             </a>
         </div>
@@ -46,13 +53,19 @@
                     <a href="#education"><i class="fas fa-graduation-cap"></i> Education</a>
                 </li>
                 <li>
-                    <a href="#projects">Projects</a>
+                    <a href="#projects"><i class="fas fa-briefcase"></i> Projects</a>
                 </li>
                 <li>
-                    <a href="#extracurricular">Extra Curriculars</a>
+                    <a href="#extracurricular"><i class="fas fa-trophy"></i> Extra Curriculars</a>
                 </li>
                 <li>
-                    <a href="#contact">Contact</a>
+                    <a href="#contact"><i class="fas fa-coffee"></i> Contact</a>
+                </li>
+                <li>
+                    <a href="https://myhappyplacetogo.wordpress.com" target="_blank" ><i class="fab fa-wordpress"></i> Blog</a>
+                </li>
+                 <li>
+                    <a href="Resume/Resume.pdf" target="_blank" download="Mitanshi"><i class="fas fa-download"></i> Resume</a>
                 </li>
                 
             </ul>
@@ -99,17 +112,17 @@
         <h1 class="featurette-heading"> Education </h1><br>
 
     <div class="row">
-<div class="col-lg-4">
+<div class="col-lg-4 col-sm-4">
     <div class="thumbnail">
     <center>
     <img class="educationimage featurette-image img-responsive" src="https://images.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.hh4wM7uOzGvcj2JpPgsPKQHaHa%26pid%3D15.1&f=1" alt="BTech">
-    <div class="caption"><p><strong>Bachelors in Computer Science(BTech)<br>
+    <div class="caption"><p><strong>Bachelors in Computer Science (BTech)<br>
     84.84%</strong></p></div>
 </center>
 
 </div>
    </div>
-   <div class="col-lg-4">
+   <div class="col-lg-4 col-sm-4">
     <div class="thumbnail">
     <center>
     <img class=" .img-thumbnail educationimage featurette-image img-responsive" src="https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Ficons.iconarchive.com%2Ficons%2Ficons8%2Fios7%2F512%2FScience-Class-icon.png&f=1" alt="Class 12">
@@ -118,7 +131,7 @@
 </center>
 </div>
    </div>
-   <div class="col-lg-4">
+   <div class="col-lg-4 col-sm-4">
     <div class="thumbnail">
     <center>
     <img class=" .img-thumbnail educationimage featurette-image img-responsive" src="https://image.flaticon.com/icons/png/512/78/78686.png" alt="Class 10">
@@ -151,7 +164,7 @@
 <section id="extracurricular">
        
     <div class="row">
-<div class="col-lg-12">
+<div class="col-lg-12 col-xs-12">
     <!--<div class="jumbotron">-->
     <p class="lead">
     I am a Final year B.Tech CS Undergraduate from Indira Gandhi Delhi Technical University aka IGDTUW. I love singing and reading fictions. Apart from being curious about new technology and generally about how stuff works, I have a knack for problem solving. I have a positive outlook towards life and believe that we can actually make this world a better place. I'll be joining InfoEdge soon as a Software Developer to explore my developer skills.<br>
@@ -163,7 +176,36 @@
 </div>
 
 </section>
+<hr class="featurette-divider">
+<section id="contact">
+    <h1 class="featurette-heading"> Contact </h1><br>
+      <div class="text-center row">
 
+              <div class="col-lg-2 col-sm-2 col-xs-2">
+                <a href="https://www.facebook.com/rastogimitanshi" target="_blank" title="rastogimitanshi on Facebook"><i id="social-fb" class="fab fa-facebook-square fa-10x social img-responsive"></i></a>
+            </div>
+            <div class="col-lg-2 col-sm-2 col-xs-2">
+                <a href="https://twitter.com/rastogimitanshi" target="_blank" title="rastogimitanshi on Twitter"><i id="social-tw" class="fab fa-twitter-square fa-10x social img-responsive"></i></a>
+                 </div>
+            <div class="col-lg-2 col-sm-2 col-xs-2">
+                <a href="https://plus.google.com/u/0/106106806379604405060" target="_blank" title="rastogimitanshi on Google +"><i id="social-gp" class="fab fa-google-plus-square fa-10x social img-responsive"></i></a>
+                 </div>
+            <div class="col-lg-2 col-sm-2 col-xs-2">
+                <a href="https://github.com/rastogimitanshi" target="_blank" title="rastogimitanshi on Github"><i id="social-gh" class="fab fa-github-square fa-10x social img-responsive"></i></a>
+                 </div>
+            <div class="col-lg-2 col-sm-2 col-xs-2">
+                <a href="https://linkedin.com/in/rastogimitanshi" target="_blank" title="rastogimitanshi on Linkedin"><i id="social-li" class="fab fa-linkedin fa-10x social img-responsive"></i></a>
+                 </div>
+            <div class="col-lg-2 col-sm-2 col-xs-2">
+                <a href="mailto:mitanshi1995.mr@gmail.com" target="_blank" title="Email to mitanshi1995.mr@gmail.com"><i id="social-em" class="fas fa-envelope-square fa-10x social img-responsive"></i></a>
+                 </div>
+
+
+  </div>
+
+</div>
+</section>
+</div>
             
 
         <!-- jQuery CDN -->
@@ -176,6 +218,42 @@
         $(this).collapse('hide');
     }
 });
-         </script>
+             $(document).ready(function(){
+    $('body').scrollspy({target: ".navbar", offset: 100});   
+});
+              $(document).ready(function(){
+      // Add smooth scrolling to all links
+      $("a").on('click', function(event) {
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+          // Store hash
+          var hash = this.hash;
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function(){
+       
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        } // End if
+      });
+    });
+        
+         $(document).ready(function () {
+
+    $(window).on('scroll', function () {
+        if ($(window).scrollTop() >= 30) {
+            $('.navbar').addClass('compressed');
+        } else {
+            $('.navbar').removeClass('compressed');
+        }
+    });
+
+});  
+          </script>
     </body>
 </html>
