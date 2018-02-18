@@ -67,7 +67,7 @@
 }
 @media (max-width: 767px) {
     .navbar-header {
-        height: 60px;
+        height: 70px;
         padding-top: 15px;
         padding-bottom: 15px;
     }
@@ -96,8 +96,6 @@ section {
 @media (max-width: 767px){
     .aboutmeimage{
     margin-top:20px;
-    margin-left: 30px;
-    padding-right: 60px;
     max-height:280px;
     max-width: 280px;
 }
