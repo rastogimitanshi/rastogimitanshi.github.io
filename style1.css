@@ -112,7 +112,7 @@ header {
 }   
 section {
   padding: 90px 0;
-  margin-top:0px;
+  margin-top:-60px;
 }
 
 @media (max-width: 767px){
@@ -123,10 +123,15 @@ section {
 }
 }
 @media(min-width: 768px){
-.educationimage{
-    max-height:150px;
-    max-width: 150px;
-    padding:30px;
+.educationimage {
+    max-height:200px;
+    max-width: 200px;
+    padding:10px;
+}
+.projectimage {
+    max-height:250px;
+    max-width: 250px;
+    padding:0px;
 }
  .aboutmeimage{
     margin-top:120px;
@@ -135,7 +140,11 @@ section {
 }
 }
 @media(max-width: 767px){}
-.educationimage{
+.educationimage {
+    max-height:200px;
+    max-width: 200px;
+}
+.projectimage{
     max-height:200px;
     max-width: 200px;
 }
