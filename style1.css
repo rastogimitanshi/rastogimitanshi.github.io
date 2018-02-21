@@ -139,7 +139,7 @@ section {
     max-width: 280px;
 }
 }
-@media(max-width: 767px){}
+@media(max-width: 767px){
 .educationimage {
     max-height:150px;
     max-width: 150px;
@@ -150,4 +150,8 @@ section {
     max-width: 150px;
     padding:20px;
 }
+}
+.aimage{
+    max-width: 50px;
+    max-height: 50px;
 }
