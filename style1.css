@@ -155,3 +155,9 @@ section {
     max-width: 50px;
     max-height: 50px;
 }
+.caption{
+    font-family: 'Roboto Mono', monospace;
+}
+.featurette-heading{
+    font-family: 'Fruktur', cursive;
+}
